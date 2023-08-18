@@ -15,12 +15,26 @@
     header {
       background-color: #333;
       color: #fff;
-      text-align: left;
+      text-align: center;
       padding: 2rem;
       }
-     .header img{
+      .redes-sociales li {
+          display: inline-block; /* Cambia el comportamiento a inline-block */
+          margin-right: 10px; /* Añade un margen derecho entre los elementos */
+
+        }
+      .redes-sociales {
+        list-style: none; /* Quita los puntos de la lista */
+          padding: 0; /* Elimina el espacio de relleno por defecto */
+      }
+      
+      .imagen-cabecera {
         width: 200px; /* Cambia este valor al ancho deseado */
-        height: auto; /* Mantén la proporción original */
+        height: 150px; /* Mantén la proporción original */
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
 
 
@@ -51,7 +65,7 @@
 </head>
 <body>
   <header>
-    <img width="150px" height="150px"  src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mi Imagen de Cabecera">
+    <img src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mi Imagen de Cabecera" class="imagen-cabecera">
     <h1>Jesus Gaytan</h1>
     <p>Especialista en Redes y Tecnología</p>
     <ul class="redes-sociales">
